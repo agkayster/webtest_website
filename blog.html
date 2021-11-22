@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BlueFlame Engineering Ltd</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://use.fontawesome.com/b5d3b4a72a.js"></script>
+	</head>
+	<body>
+		<!-------------SECTION FOR HEADER------------------------------------>
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"
+					><img
+						src="/assets/blueflame.jpg"
+						alt="blueflame logo"
+						height="80px"
+				/></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="serSol.html">SERVICES & SOLUTIONS</a></li>
+						<li><a href="about.html">KNOW US</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>Current Trends In Technology</h1>
+		</section>
+
+		<!--------------------SECTION FOR BLOG CONTENT-------->
+		<section class="blog-content">
+			<div class="row">
+				<div class="blog-left">
+					<!-- <img src="./assets/certificate.jpg" alt="certificate" /> -->
+					<h2>Current Trends in Technology 2021</h2>
+					<p>
+						Technology today is evolving at a rapid pace, enabling
+						faster change and progress, causing an acceleration of
+						the rate of change. However, it is not only technology
+						trends and emerging technologies that are evolving, a
+						lot more has changed this year due to the outbreak of
+						COVID-19 making IT professionals realize that their role
+						will not stay the same in the contactless world
+						tomorrow. And an IT professional in 2020-21 will
+						constantly be learning, unlearning, and relearning (out
+						of necessity if not desire).
+					</p>
+					<br />
+					<p>
+						What does this mean for you? It means staying current
+						with emerging technologies and latest technology trends.
+						And it means keeping your eyes on the future to know
+						which skills you’ll need to know to secure a safe job
+						tomorrow and even learn how to get there. All bows to
+						the worldwide pandemic, most of the global IT population
+						is sitting back, working from home. And if you wish to
+						make the most of your time at home, here are the top 9
+						emerging technology trends you should watch for and make
+						an attempt at in 2021, and possibly secure one of the
+						jobs that will be created by these new technology
+						trends, that includes:
+						<ul class="currentTrends">
+							<li>Artificial Intelligence and Machine Learning</li>
+							<li>Robotic Process Automation (RPA)</li>
+							<li>Edge Computing</li>
+							<li>Quantum Computing</li>
+							<li>Virtual Reality and Augmented Reality</li>
+							<li>Blockchain</li>
+							<li>Internet of Things (IoT)</li>
+							<li>5G</li>
+							<li>Cyber Security</li>
+						</ul>
+					</p>
+					
+
+					<div class="comment-box">
+						<h3>Leave a Comment</h3>
+						<form class="comment-form">
+							<input type="text" placeholder="Enter Name" />
+							<input type="email" placeholder="Enter Email" />
+							<textarea
+								rows="5"
+								placeholder="Your comment"
+							></textarea>
+							<button type="submit" class="hero-btn red-btn">
+								Post Comment
+							</button>
+						</form>
+					</div>
+				</div>
+				<!-- <div class="blog-right">
+					<h3>Post Categories</h3>
+					<div>
+						<span>Business Analytics</span>
+						<span>21</span>
+					</div>
+					<div>
+						<span>Data Science</span>
+						<span>28</span>
+					</div>
+					<div>
+						<span>Machine Learning</span>
+						<span>15</span>
+					</div>
+					<div>
+						<span>Computer Science</span>
+						<span>34</span>
+					</div>
+					<div>
+						<span>AutoCAD</span>
+						<span>36</span>
+					</div>
+					<div>
+						<span>Software Development</span>
+						<span>40</span>
+					</div>
+				</div> -->
+			</div>
+		</section>
+
+		<!--------------------SECTION FOR FOOTER-------->
+		<section class="footer">
+			<h4>BlueFlame Engineering Limited</h4>
+			<p>
+				Head Office: 66 Akintunde Street, Lekki Phase 1, Lekki, Lagos,
+				Nigeria.
+			</p>
+			<p>info@blueflameengineering.com</p>
+			<p>08166516400, 08022224537</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-linkedin"></i>
+				<i class="fa fa-instagram"></i>
+			</div>
+			<p>
+				BlueFlame Engineering Ltd
+				<br /><i class="fa fa-copyright"></i> 2021<br />
+				All Rights Reserved.
+			</p>
+		</section>
+		<!------Javascript for toggling menu in mobile view----->
+		<script>
+			let navLinks = document.getElementById('navLinks');
+			const showMenu = () => {
+				navLinks.style.right = '0px';
+			};
+
+			const hideMenu = () => {
+				navLinks.style.right = '-200px';
+			};
+		</script>
+	</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BlueFlame Engineering Ltd</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://use.fontawesome.com/b5d3b4a72a.js"></script>
+	</head>
+	<body>
+		<!-------------SECTION FOR HEADER------------------------------------>
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"
+					><img
+						src="/assets/blueflame.jpg"
+						alt="blueflame logo"
+						height="80px"
+				/></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="serSol.html">SERVICES & SOLUTIONS</a></li>
+						<li><a href="about.html">KNOW US</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>Services and Solutions</h1>
+		</section>
+
+		<!--------------------SECTION FOR SOLUTIONS AND SERVICES-------->
+		<section class="course">
+			<h1>What we offer</h1>
+			<p>
+				We provide end-to-end ICT (IT AND Telecoms), Project management,
+				Power solutions and services in order to meet our customer
+				satisfaction. This we consistently achieve by using cutting edge
+				technology, cost saving processes and procedures as well as
+				proper benchmarking techniques to evaluate the effectiveness of
+				all solutions and services provided.
+			</p>
+
+			<div class="row">
+				<div class="course-col">
+					<h3>Products</h3>
+					<ul>
+						<li>Accessories: Adaptors, USB drives, Headsets</li>
+						<li>Cables: CAT 6TP, Belkins</li>
+						<li>Display Boards</li>
+						<li>Projectors</li>
+						<li>Fujitsu Industrial High-End Scanners</li>
+						<li>
+							Collaboration Tools: IP Conferencing and Video
+							Conferencing phones and devices
+						</li>
+					</ul>
+				</div>
+				<div class="course-col">
+					<h3>Solutions</h3>
+					<ul>
+						<li>Payroll</li>
+						<li>Account payable solutions</li>
+						<li>CRM + Contact Center solutions</li>
+						<li>EDMS(Electronic Management Solution)</li>
+						<li>SAP</li>
+						<li>Web APPS</li>
+						<li>E-Commerce website development</li>
+						<li>DocuSign</li>
+						<li>Asset Management Solution</li>
+						<li>Business Automation Software Development</li>
+					</ul>
+				</div>
+				<div class="course-col">
+					<h3>Services</h3>
+					<ul>
+						<li>Network Design, Implementation and Support</li>
+						<li>
+							Hybrid Cloud Solution: Public and Private Cloud(AWS)
+						</li>
+						<li>Data Recovery Services</li>
+						<li>Project Management Services</li>
+						<li>Enterprise Back-up and Disaster Recovery</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!--------------------SECTION FOR SOLUTIONS-------->
+
+		<section class="facilities">
+			<h1>Our Solutions</h1>
+			<p>
+				At BlueFlame Engineering we provide software solutions that
+				enable our clients automate their business and operational
+				processes. Thereby giving them to ability and advantage to draw
+				data, make incisive decisions and move quickly to market. Hence,
+				becoming first-to-market organizations.
+			</p>
+
+			<div class="row">
+				<div class="facilities-col">
+					<img
+						src="./assets/imageScanner.jpeg"
+						alt="image of scanner"
+						height="280px"
+					/>
+					<h3>Electronic Document Management Solution</h3>
+					<p>
+						Our Electronic Document Management Solution service
+						encompasses the digitization of hard copy documents in
+						what ever size, indexing with unique ID's and
+						centralizing all electronic documents in Software
+						solution that manages such documents across geographic
+						locations.
+					</p>
+				</div>
+				<div class="facilities-col">
+					<img
+						src="./assets/mobileWebApp.jpeg"
+						alt="image of mobile phone"
+						height="280px"
+					/>
+					<h3>Web and Mobile Solutions</h3>
+					<p>
+						At BlueFlame we build web and mobile applications using
+						various Frontend and Backend programming and database
+						languages. This enabes us to build various software
+						solutions that meet various business and personal
+						demands.
+					</p>
+				</div>
+				<div class="facilities-col">
+					<img
+						src="./assets/automation.jpeg"
+						alt="automation image"
+						height="280px"
+					/>
+					<h3>Business Process Automation Software</h3>
+					<p>
+						Business process automation is key to the growth of any
+						business right now and at BlueFlame we specialise in
+						automating business processes to reduce the amount of
+						manual processes companies have to engage in. In so
+						doing, increase the speed of decision making and
+						business idea execution.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!--------------------SECTION FOR FOOTER-------->
+		<section class="footer">
+			<h4>BlueFlame Engineering Limited</h4>
+			<p>
+				Head Office: 66 Akintunde Street, Lekki Phase 1, Lekki, Lagos,
+				Nigeria.
+			</p>
+			<p>info@blueflameengineering.com</p>
+			<p>08166516400, 08022224537</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-linkedin"></i>
+				<i class="fa fa-instagram"></i>
+			</div>
+			<p>
+				BlueFlame Engineering Ltd
+				<br /><i class="fa fa-copyright"></i> 2021<br />
+				All Rights Reserved.
+			</p>
+		</section>
+
+		<!------Javascript for toggling menu in mobile view----->
+		<script>
+			let navLinks = document.getElementById('navLinks');
+			const showMenu = () => {
+				navLinks.style.right = '0px';
+			};
+
+			const hideMenu = () => {
+				navLinks.style.right = '-200px';
+			};
+		</script>
+	</body>
+</html>
