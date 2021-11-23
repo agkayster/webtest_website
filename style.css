@@ -140,19 +140,19 @@ nav .fa {
 
 /* CSS STYLING FOR SERVICES AND SOLUTIONS SECTION */
 
-.course {
+.services {
 	width: 80%;
 	margin: auto;
 	text-align: center;
 	padding-top: 100px;
 }
 
-.course > h1 {
+.services > h1 {
 	font-size: 36px;
 	font-weight: 600;
 }
 
-.course > p {
+.services > p {
 	color: #777;
 	font-size: 14px;
 	font-weight: 300;
@@ -166,7 +166,7 @@ nav .fa {
 	justify-content: space-between;
 }
 
-.course-col {
+.services-col {
 	flex-basis: 31%;
 	background: #fff3f3;
 	border-radius: 10px;
@@ -176,19 +176,19 @@ nav .fa {
 	transition: 00.5s;
 }
 
-.course-col > h3 {
+.services-col > h3 {
 	text-align: center;
 	font-weight: 600;
 	margin: 10px 0;
 }
 
-.course-col > ul {
+.services-col > ul {
 	text-align: left;
 	padding: 15px;
 	padding-top: 0px;
 }
 
-.course-col:hover {
+.services-col:hover {
 	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -201,14 +201,14 @@ nav .fa {
 
 /* CSS STYLING FOR OFFICE LOCATION SECTION*/
 
-.campus {
+.locations {
 	width: 80%;
 	margin: auto;
 	text-align: center;
 	padding-top: 50px;
 }
 
-.campus-col {
+.locations-col {
 	flex-basis: 32%;
 	border-radius: 10px;
 	margin-bottom: 30px;
@@ -216,7 +216,7 @@ nav .fa {
 	overflow: hidden;
 }
 
-.campus-col > img {
+.locations-col > img {
 	width: 100%;
 	display: block;
 }
@@ -258,30 +258,30 @@ nav .fa {
 
 /* CSS STYLING FOR SOLUTIONS SECTION*/
 
-.facilities {
+.solutions {
 	width: 80%;
 	margin: auto;
 	text-align: center;
 	padding-top: 100px;
 }
 
-.facilities-col {
+.solutions-col {
 	flex-basis: 31%;
 	border-radius: 10px;
 	margin-bottom: 5%;
 	text-align: left;
 }
 
-.facilities-col > img {
+.solutions-col > img {
 	width: 100%;
 	border-radius: 10px;
 }
 
-.facilities-col > p {
+.solutions-col > p {
 	padding: 0;
 }
 
-.facilities-col > h3 {
+.solutions-col > h3 {
 	margin-top: 16px;
 	margin-bottom: 15px;
 	text-align: left;
