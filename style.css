@@ -45,8 +45,8 @@ nav img {
 	font: size 13px;
 }
 
-/* This is for the red underline under each menu link*/
-.nav-links ul li ::after {
+/* This is for the red underline under each menu link before we hover*/
+.nav-links ul li::after {
 	content: '';
 	width: 0%;
 	height: 2px;
@@ -57,7 +57,7 @@ nav img {
 }
 
 /* When we hover over the menu elements*/
-.nav-links ul li:hover ::after {
+.nav-links ul li:hover::after {
 	width: 100%;
 }
 
@@ -199,6 +199,37 @@ nav .fa {
 	}
 }
 
+/* CSS STYLING FOR SOLUTIONS SECTION*/
+
+.solutions {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.solutions-col {
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+}
+
+.solutions-col > img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.solutions-col > p {
+	padding: 0;
+}
+
+.solutions-col > h3 {
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
 /* CSS STYLING FOR OFFICE LOCATION SECTION*/
 
 .locations {
@@ -256,36 +287,6 @@ nav .fa {
 	opacity: 1;
 }
 
-/* CSS STYLING FOR SOLUTIONS SECTION*/
-
-.solutions {
-	width: 80%;
-	margin: auto;
-	text-align: center;
-	padding-top: 100px;
-}
-
-.solutions-col {
-	flex-basis: 31%;
-	border-radius: 10px;
-	margin-bottom: 5%;
-	text-align: left;
-}
-
-.solutions-col > img {
-	width: 100%;
-	border-radius: 10px;
-}
-
-.solutions-col > p {
-	padding: 0;
-}
-
-.solutions-col > h3 {
-	margin-top: 16px;
-	margin-bottom: 15px;
-	text-align: left;
-}
 /* CSS STYLING FOR CLIENTS SECTION*/
 
 .clients {
@@ -482,12 +483,13 @@ nav .fa {
 }
 
 .about-col {
-	flex-basis: 48%;
+	/* flex-basis: 48%; */
 	padding: 30px 2px;
 }
 
-.about-col > img {
-	width: 100%;
+.about-col > p > img {
+	width: 50%;
+	float: right;
 }
 
 .about-col > h1 {
@@ -502,7 +504,7 @@ nav .fa {
 	border: 1px solid #f44336;
 	background: transparent;
 	color: #f44336;
-	margin-top: 5px;
+	margin-top: 15px;
 }
 
 .red-btn:hover {
@@ -515,6 +517,30 @@ nav .fa {
 
 .mission {
 	margin-top: 15px;
+}
+
+.target-market {
+	margin-top: 15px;
+}
+
+.businessGW {
+	margin-top: 15px;
+}
+
+@media (max-width: 700px) {
+	.about-col {
+		position: relative;
+	}
+
+	.about-col > p > img {
+		position: absolute;
+		top: 320px;
+		width: 100%;
+	}
+
+	.whoWe {
+		margin-top: 185px;
+	}
 }
 
 /* CSS STYLING FOR BLOG CONTENT PAGE*/
